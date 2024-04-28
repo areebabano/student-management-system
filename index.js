@@ -90,10 +90,10 @@ let studentCourse = await inquirer.prompt([
 ]);
 console.log(chalk.cyan(`Your course ${studentCourse.course} successfully added`));
 let tuitionFee = {
-    "Web Development": 10000,
-    "Data Science": 20000,
-    "Mobile Development": 200000,
-    Cybersecurity: 30000,
+    "Web Development": 50000,
+    "Data Science": 70000,
+    "Mobile App Development": 40000,
+    "Cybersecurity": 60000,
 };
 console.log(chalk.green(`\nYour course fee is: ${tuitionFee[studentCourse.course]} \n`));
 let paymentType = await inquirer.prompt([
